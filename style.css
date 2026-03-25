@@ -1,0 +1,55 @@
+html{
+     font-family: "Momo Signature", cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.pressure{
+    color: rgb(29, 28, 34);
+    padding: 10px;
+}
+.wind_speed{
+    color: black;
+    padding: 10px;
+}
+.clouds{
+    color: black;
+    padding: 10px;
+}
+.visibility{
+    color: black;
+    padding: 10px;
+}
+.rain{
+    color: black;
+    padding: 10px;
+}
+.humadity{
+    color: black;
+    padding: 10px;
+}
+.temp{
+    color: black;
+    padding: 10px;
+}
+.description{
+    padding: 10px
+}
+.info_bottom_data{
+    transition: 0.3s ease-in-out;
+    border-radius: 12px;
+}
+
+.info_bottom_data:hover{
+    transform: translateY(-3px);
+}
